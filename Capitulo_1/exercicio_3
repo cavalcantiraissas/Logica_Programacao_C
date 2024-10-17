@@ -1,0 +1,27 @@
+/*
+ * -----------------------------------------------------------------------------
+ * Programa:     exercicio_3.c
+ * Autor:        Raissa Cavalcanti
+ * Data:         17/10/2024
+ * Descrição:    Cálculo de Área
+ * -----------------------------------------------------------------------------
+ */
+
+#include <stdio.h> 
+
+int main(){
+
+    float comprimento, largura, area;
+
+    printf("Digite o Comprimento: \n");
+    scanf("%f", &comprimento);
+
+    printf("Digite a Largura: \n");
+    scanf("%f", &largura);
+
+    area = (comprimento*largura); 
+    printf("Área = %.2f metros", area);
+
+    return 0; 
+
+}
