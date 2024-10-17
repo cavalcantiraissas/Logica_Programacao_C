@@ -1,0 +1,24 @@
+/*
+ * -----------------------------------------------------------------------------
+ * Programa:     exercicio_1.c
+ * Autor:        Raissa Cavalcanti
+ * Data:         17/10/2024
+ * Descrição:    Dobro de um número Real
+ * -----------------------------------------------------------------------------
+ */
+
+#include <stdio.h>
+
+int main(){
+
+    float numero, dobro;
+
+    printf("Digite o número que deseja dobrar: \n"); 
+    scanf("%f", &numero);
+    
+    dobro = (numero*2);
+
+    printf("Você digitou o número: %.1f \nO seu dobro é: %.1f ", numero, dobro);
+
+    return 0; 
+}
