@@ -1,0 +1,29 @@
+/*
+ * -----------------------------------------------------------------------------
+ * Programa:     exercicio_5.c
+ * Autor:        Raissa Cavalcanti
+ * Data:         17/10/2024
+ * Descrição:    Cotação do Dolar
+ * -----------------------------------------------------------------------------
+ */
+
+#include <stdio.h>
+
+int main (){
+
+    float real, cotacao, dolar;
+
+    printf("Digite o valor em reais: \n");
+    scanf("%f", &real);
+
+    printf("Qual a cotação atual do dolar?\n");
+    scanf("%f", &cotacao);
+
+    dolar = (real/cotacao); 
+
+    printf("Na cotação atual, você teria: %.2f Dolares.", dolar);
+
+    return 0; 
+
+
+}
