@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main (){
+
+    float salario_antigo, reajuste, novo_salario;
+
+    printf("Digite o seu salário atual: \n");
+    scanf("%f", &salario_antigo);
+
+    printf("De quanto será o seu reajuste?\nConsidere um valor real. Ex: 15 = 0.15\n");
+    scanf("%f", &reajuste);
+
+    novo_salario = (salario_antigo*reajuste) + salario_antigo; 
+
+    printf("Novo salário: %.2f", novo_salario);
+
+    return 0; 
+
+
+}
