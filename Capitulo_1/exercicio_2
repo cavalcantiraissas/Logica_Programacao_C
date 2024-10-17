@@ -1,0 +1,22 @@
+/*
+ * -----------------------------------------------------------------------------
+ * Programa:     exercicio_2.c
+ * Autor:        Raissa Cavalcanti
+ * Data:         17/10/2024
+ * Descrição:    Cálculo de Comissão 10%
+ * -----------------------------------------------------------------------------
+ */
+
+#include <stdio.h>
+
+int main(){
+    float vendas, comissao; 
+
+    printf("Digite o número de vendas:\n");
+    scanf("%f", &vendas);
+
+    comissao = (vendas*0.10); 
+    printf("Total de Vendas: %.2f \nComissão: R$ %.2f", vendas, comissao);
+
+    return 0; 
+}
